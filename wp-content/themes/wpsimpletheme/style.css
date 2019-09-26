@@ -1,0 +1,25 @@
+/*
+Theme Name: Simple Theme
+Author: Jim MacDiarmid
+Author URI: http://www.jimmacdiarmid.com/
+Description: Simple Theme based on a YouTube tutorial
+Version: 0.1
+*/
+
+header {
+    background: #111;
+    width: 100%;
+    height: 100px;
+}
+
+H2 {color: red;}
+p {color: blue;}
+
+
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+

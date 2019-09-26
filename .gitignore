@@ -1,15 +1,16 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### WordPress template
 /*
-
 # ignore node dependency directories
 node_modules/
 
-/wp-admin/*
+wp-admin
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
-/wp-content/*
+wp-content/*
+/wp-content/upgrade
+/wp-content/uploads
 
 # ignore these plugins
 wp-content/plugins/*
@@ -20,16 +21,13 @@ wp-content/themes/twenty*/
 
 /wp-includes/
 
+.*
+
 
 # ignore log files and databases
 *.log
 *.sql
 *.sqlite
-
-
-
-
-
 
 !.gitignore
 
@@ -38,4 +36,6 @@ wp-content/themes/twenty*/
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
-
+!wp-content/themes/wpsimpletheme/
+/wp-content/themes/wpsimpletheme/resume-example.html
+/wp-content/themes/wpsimpletheme/assets/css/fonts/
