@@ -1,0 +1,34 @@
+/*
+Theme Name: Simple Theme
+Author: Jim MacDiarmid
+Author URI: http://www.jimmacdiarmid.com/
+Description: Simple Theme based on a YouTube tutorial
+Version: 0.1
+*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import "variables";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "functions";
+@import "mixins";
+@import "animations";
+@import "base";
+@import "typography";
+@import "utilities";
+@import "bg-video";
+@import "button";
+@import "card";
+@import "composition";
+@import "feature-box";
+@import "form";
+@import "popup";
+@import "story";
+@import "footer";
+@import "grid";
+@import "header";
+@import "navigation";
+@import "home";
