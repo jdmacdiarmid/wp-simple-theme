@@ -39,3 +39,6 @@ wp-content/themes/twenty*/
 !wp-content/themes/wpsimpletheme/
 /wp-content/themes/wpsimpletheme/resume-example.html
 /wp-content/themes/wpsimpletheme/assets/css/fonts/
+/wp-content/themes/wpsimpletheme/mix-manifest.json
+
+wp-content/themes/wpsimpletheme/assets/js/
